@@ -37,7 +37,7 @@ public class ModRegistration {
 
 
 
-    public static List<UnifiedDeferredItem<DeferredItem<Item>>> deferredItemList;
+    public static List<UnifiedDeferredItem<DeferredHolder>> deferredItemList;
 
     private static DeferredItem<Item> registerItem(DeferredItem<Item> deferredItem, boolean inCreativeTab) {
 
